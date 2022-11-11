@@ -18,6 +18,7 @@ else:
     sys.exit(1)
 
 if __name__ == '__main__':
+    print("asdsad")
     try:
         sleep(random.uniform(5, 15))
         leave = Leave(username, password, "./")
